@@ -1,0 +1,85 @@
+.menu-box {
+    background-color: black;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.swiper-slide {
+    color: white;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+}
+
+video {
+    max-width: 200px;
+    height: auto;
+}
+
+#results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.result-item {
+    width: calc(25% - 10px);
+    margin-bottom: 10px;
+}
+
+.searchbox {
+    position: absolute;
+    /* position을 fixed에서 absolute로 변경 */
+    top: 20px;
+    /* 원하는 위치로 조정 */
+    left: 130px;
+    /* 원하는 위치로 조정 */
+    display: flex;
+    height: 40px;
+    color: #0f0f0f;
+}
+
+.searchbox input {
+    border-radius: 18px;
+    padding: 5px;
+    /* 패딩 추가 */
+    margin-right: 5px;
+    /* 입력창 사이 간격 */
+}
+
+.searchbox button {
+    border-radius: 18px;
+    padding: 5px 10px;
+    /* 패딩 추가 */
+}
+
+img {
+    /*미스터 블랙 홍보용 배너*/
+    padding: 3px;
+    /* 패딩 추가 */
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.banner-info {
+    font-size: 13px;
+    color: red;
+}

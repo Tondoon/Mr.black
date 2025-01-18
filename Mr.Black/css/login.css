@@ -1,0 +1,36 @@
+.ID {
+    border-radius: 10px;
+    height: 20px;
+    margin: 3px;
+    margin-left: 15%;
+    margin-right: 1px;
+    width: 32%;
+}
+
+.PW {
+    border-radius: 10px;
+    height: 20px;
+    margin: 3px;
+    margin-left: 1%;
+    width: 32%;
+}
+
+.Google-Advertisement {
+    margin-left: 15%;
+    margin-top: 3px;
+}
+
+.Google-Advertisement-inner {
+    margin-left: 15%;
+    margin-top: 3px;
+}
+
+.fingerprint-auth {
+border-radius: 20px;
+background-color: black;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+margin-left:40%
+}
